@@ -3,6 +3,5 @@
 "description": "ExerciseA",
 "version": "0.0.0",
 "dependencies": {
-"angular": "v1.4.5"
 }
 }
