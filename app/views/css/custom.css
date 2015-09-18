@@ -10,6 +10,8 @@ body {
 	-webkit-box-shadow: 1px 1px 30px 3px rgba(0, 0, 0, 0.06);
 	-moz-box-shadow: 1px 1px 30px 3px rgba(0, 0, 0, 0.06);
 	box-shadow: 1px 1px 30px 3px rgba(0, 0, 0, 0.06);
+	width: 19rem;
+    height: 7rem;
 }
 
 .card-average {
@@ -35,7 +37,7 @@ body {
 
 .card-details {
 	display: table-cell;
-	padding: 2px 2px 2px 10px;
+	padding: 10px 2px 2px 10px;
 	width: 185px;
 }
 
@@ -44,6 +46,10 @@ body {
 	padding: 2px 2px 2px 10px;
 }
 
+.detail-cell i {
+    font-size: 15px;
+    line-height: 1.0em;
+}
 .card-last-week-up {
 	color: #00B208;
 }
@@ -71,7 +77,7 @@ body {
 }
 
 .cell-label {
-	width: 3rem;
+	width: 5rem;
 }
 
 .cell-um {
@@ -92,4 +98,10 @@ body {
 .cards-cell{
 	display: table-cell;
 	padding: 5px;
+}
+
+.icon-span{
+	padding-left: 0rem;
+/* 	width: 21px!important; */
+    height: 17px!important;
 }
