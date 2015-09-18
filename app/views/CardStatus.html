@@ -10,7 +10,7 @@
 <body>
 
 <div class="cards-container" ng-controller="cardStatusCtrl">
-	<div class="cards-row" ng-repeat="card in cardStatus" >
+	<div class="cards-row" ng-repeat="card in cardStatus | orderBy: '-trend.average'" >
 		<div class="cards-cell">
 			<div class="card">
 				<div ng-style="{ background: color(card) }" class="card-average">{{card.trend.average * 100 | number:0}}<span class="average-percent">%</span></div>
