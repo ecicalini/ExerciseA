@@ -15,7 +15,6 @@ body {
 }
 
 .card-average {
-    display: table-cell;
     vertical-align: middle;
     padding: 2px;
     color: whitesmoke;
@@ -25,10 +24,15 @@ body {
     border-radius: 13px 0px 0px 13px;
     -moz-border-radius: 13px 0px 0px 13px;
     -webkit-border-radius: 13px 0px 0px 13px;
-    /* border: 1px solid #b8b8b8; */
     text-shadow: 3px 3px 7px rgba(150, 150, 150, 1);
-    width: 65px;
+    width: 4rem;
+    line-height: 7rem;
     text-align: -webkit-center;
+    position: absolute;
+}
+
+.average-value{
+	
 }
 
 .average-percent {
@@ -36,9 +40,9 @@ body {
 }
 
 .card-details {
-	display: table-cell;
-	padding: 10px 2px 2px 10px;
-	width: 185px;
+	padding: 13px 2px 13px 69px;
+    width: 12rem;
+    position: relative;
 }
 
 .detail-cell {
@@ -88,6 +92,13 @@ body {
 	width: 60%;
 }
 
+card-details{
+	display: table-cell;
+}
+card-details{
+	display: table-cell;
+}
+
 .cards-row{
 	display: -webkit-inline-box;
 	display: -ms-inline-box;
@@ -102,6 +113,5 @@ body {
 
 .icon-span{
 	padding-left: 0rem;
-/* 	width: 21px!important; */
     height: 17px!important;
 }
