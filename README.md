@@ -14,8 +14,8 @@ bower validate      1.4.6 against git://github.com/angular/bower-angular.git#~1.
 bower install       angular#1.4.6
 
 angular#1.4.6 bower_components/angular
-</pre>
 </code>
+</pre>
 
 #Code example
 
