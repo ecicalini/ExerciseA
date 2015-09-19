@@ -50,7 +50,7 @@ The below UI component works with static data: if you want run it with dynamic d
 
 <pre>
 /ExerciseA/app/controllers/cardStatusCtrl.js
-<pre>
+</pre>
 
 #Run the example
 
