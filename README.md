@@ -37,7 +37,7 @@ angular#1.4.6 bower_components/angular
 <!-- UI component tag -->
 <card-status></card-status>
 
-<!-- application module -->
+<!-- application scripts -->
 <script src="../cardStatusApp.js"></script>
 <script src="../controllers/cardStatusCtrl.js"></script>
 <script src="../directives/cardStatusDirective.js"></script>
