@@ -4,6 +4,8 @@ A simple UI component that show last week trend of a product.
 
 * angularjs, available on bower.
 
+#Installation
+
 <pre>
 <code>
 :~/ExerciseA$ bower install
@@ -52,4 +54,4 @@ The below UI component works with static data: if you want run it with dynamic d
 
 #Run the example
 
-Load file:///your/path/ExerciseA/app/views/CardStatus.html on browser.
+Load **file:///your/path/ExerciseA/app/views/CardStatus.html** on browser.
